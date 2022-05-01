@@ -5,10 +5,10 @@ import helper.FileHelper;
 import model.Items;
 import model.Order;
 import model.OrderItem;
-import stateHandler.ItemCategoryCapValidation;
-import stateHandler.ItemPresenceValidation;
-import stateHandler.ItemStockValidation;
-import stateHandler.ValidationHandler;
+import validators.ItemCategoryCapValidation;
+import validators.ItemPresenceValidation;
+import validators.ItemStockValidation;
+import validators.ValidationHandler;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -33,7 +33,7 @@ public class InputController {
         output.add(str);
     }
 
-    public boolean startOrder() {
+    public boolean processOrder() {
         try{
             fileHelper.fileReader(true);
         }catch (Exception e){
@@ -96,9 +96,7 @@ public class InputController {
         database.getOrderItemsMap().add(currentOrder);
         ValidationHandler itemPresence = new ItemPresenceValidation();
         ValidationHandler itemStock = new ItemStockValidation();
-        ValidationHandler itemCategory = new ItemCategoryCapValidation();
-        itemPresence.nextHandler(itemStock);
-        itemStock.nextHandler(itemCategory);
+        ValidationHandler itemCategory = new ItemCategoryCapValidation();;
         if(!itemPresence.validate(items)){
             output.add("One of the Item doesn't exist in the stock");
         }else if(!itemStock.validate(items)){
