@@ -1,0 +1,14 @@
+Category,Item,Quantity,Price Per Unit
+Essential,Clothes,100,20
+Essential,Soap,200,5
+Essential,Shampoo,200,10
+Essential,Milk,100,5
+Luxury,Perfume,50,50
+Luxury,Chocolates,300,3
+Luxury,Handbag,75,150
+Luxury,Wallet,100,100
+Misc,Bedsheet,150,75
+Misc,Footware,200,25
+Misc,HomeDecorPiece,100,40
+Misc,Pen,400,3
+Misc,Pencil,400,3
