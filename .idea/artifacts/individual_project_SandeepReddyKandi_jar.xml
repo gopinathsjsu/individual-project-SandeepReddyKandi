@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="individual-project-SandeepReddyKandi:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/individual_project_SandeepReddyKandi_jar</output-path>
+    <root id="archive" name="individual-project-SaiNikhilYandamuri.jar">
+      <element id="module-output" name="individual-project-SandeepReddyKandi" />
+    </root>
+  </artifact>
+</component>

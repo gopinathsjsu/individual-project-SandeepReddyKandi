@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="IndividualProject" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="Main" />
+    <module name="individual-project-SandeepReddyKandi" />
+    <option name="PROGRAM_PARAMETERS" value="&quot;$PROJECT_DIR$/files/Dataset - Sheet1.csv&quot; &quot;$PROJECT_DIR$/files/Cards - Sheet1.csv&quot; &quot;$PROJECT_DIR$/files/Input3 - Sheet1.csv&quot;" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

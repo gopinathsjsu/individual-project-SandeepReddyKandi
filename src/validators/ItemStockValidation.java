@@ -6,7 +6,6 @@ import model.OrderItem;
 import java.util.ArrayList;
 
 public class ItemStockValidation implements ValidationHandler{
-    private ValidationHandler next= null;
     @Override
     public boolean validate(ArrayList<OrderItem> items) {
         Database database = Database.getInstance();
@@ -16,10 +15,5 @@ public class ItemStockValidation implements ValidationHandler{
             }
         }
         return true;
-    }
-
-    @Override
-    public void nextHandler(ValidationHandler next) {
-        this.next = next ;
     }
 }
