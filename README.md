@@ -3,15 +3,19 @@
 ## Problem Statement
 Develop an inventory management system in which inventory details and cards details will be provided in the CSV file. Another CSV file will be provided, containing the orders information. There will be a maximum limit on the type of items (category) which can be ordered and will be set in the program at the start. In case of successful order checkout, total amount to be paid will be displayed, while in case of error, an error output file needs to be generated.
 
-## Instructions to run the application:
+## Instructions:
 
 Needs Java 8 installed in the system that is running the program.
 
-### Instructions to run the JAR file:
 - Open terminal (command prompt for windows). <br>(Location of JAR File is: `<Present Directory>/out/artifacts/individual-project-SandeepReddyKandi_jar/individual-project-SandeepReddyKandi.jar)`.
 - Run the following command:
   `java -jar <jar_name> "<Dataset File Path>" "<Card Information File Path>" "<Order Information File Path>"` <br>
 - Output files will be created in the directory as the files provided as arguments to run the JAR.
+
+## Max Limits taken
+- For Essentials category items: **40**
+- For Luxury category items: **30**
+- For Miscellaneous category items: **60**
 
 ## Design Patterns:
 - Singleton

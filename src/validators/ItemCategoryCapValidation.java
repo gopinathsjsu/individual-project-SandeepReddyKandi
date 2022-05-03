@@ -7,8 +7,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class ItemCategoryCapValidation implements ValidationHandler{
-    private final int essentialCategoryMaxLimit = 30;
-    private final int luxuryCategoryMaxLimit = 40;
+    private final int essentialCategoryMaxLimit = 40;
+    private final int luxuryCategoryMaxLimit = 30;
     private final int miscCategoryMaxLimit = 60;
     @Override
     public boolean validate(ArrayList<OrderItem> items) {
