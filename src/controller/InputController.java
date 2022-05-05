@@ -83,7 +83,7 @@ public class InputController {
             if(database.getStocksInventoryMap().containsKey(item[0])){
                 items.add(new OrderItem(item[0],Integer.parseInt(item[1]),item[2].replaceAll("\\s+","")));
             }else{
-                output.add("Item "+item[0]+" not found");
+                output.add("Requested item " + item[0] + " does not exist in the stocks");
             }
         }
         if(!output.isEmpty()){
@@ -99,9 +99,6 @@ public class InputController {
         String itemPresenceValidation = itemPresence.validate(items);
         String itemQuantityValidation = itemStock.validate(items);
         String itemCategoryLimitValidation = itemCategory.validate(items);
-        System.out.println(itemPresenceValidation);
-        System.out.println(itemQuantityValidation);
-        System.out.println(itemCategoryLimitValidation);
         if(!itemPresenceValidation.isEmpty()){
             output.add("Please Fix the following error.");
             output.add(itemCategoryLimitValidation);

@@ -10,41 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5dd9c08-940a-42b4-ac5d-92946b4d57c3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/files/order-input-4.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/IndividualProject.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/IndividualProject.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documents/Input1Command.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documents/Input1Output.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documents/Input2Command.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documents/Input2Output.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documents/Input3Command.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documents/Input3Output.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/order-input-4.csv" beforeDir="false" afterPath="$PROJECT_DIR$/files/order-input-4.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/individual_project_SandeepReddyKandi_jar/individual-project-SandeepReddyKandi.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/individual_project_SandeepReddyKandi_jar/individual-project-SandeepReddyKandi.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/individual-project-SandeepReddyKandi/Database/Database.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/individual-project-SandeepReddyKandi/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/individual-project-SandeepReddyKandi/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/individual-project-SandeepReddyKandi/controller/CardController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/individual-project-SandeepReddyKandi/controller/InputController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/individual-project-SandeepReddyKandi/controller/StockInventoryController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/individual-project-SandeepReddyKandi/helper/CheckoutFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/individual-project-SandeepReddyKandi/helper/ErrorFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/individual-project-SandeepReddyKandi/helper/FileHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/individual-project-SandeepReddyKandi/helper/OutputFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/individual-project-SandeepReddyKandi/model/Cards.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/individual-project-SandeepReddyKandi/model/Items.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/individual-project-SandeepReddyKandi/model/Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/individual-project-SandeepReddyKandi/model/OrderItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/individual-project-SandeepReddyKandi/validators/ItemCategoryCapValidation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/individual-project-SandeepReddyKandi/validators/ItemPresenceValidation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/individual-project-SandeepReddyKandi/validators/ItemStockValidation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/individual-project-SandeepReddyKandi/validators/ValidationHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Billing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/individual-project-SandeepReddyKandi/controller/InputController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/individual-project-SandeepReddyKandi/controller/InputController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/individual-project-SandeepReddyKandi/validators/ItemPresenceValidation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/individual-project-SandeepReddyKandi/validators/ItemPresenceValidation.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/InputController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/InputController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/validators/ItemCategoryCapValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/validators/ItemCategoryCapValidation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/validators/ItemPresenceValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/validators/ItemPresenceValidation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/validators/ItemStockValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/validators/ItemStockValidation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/validators/ValidationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/validators/ValidationHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
