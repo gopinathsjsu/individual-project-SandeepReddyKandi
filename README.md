@@ -51,6 +51,24 @@ Needs Java 8 installed in the system that is running the program.
 
 ![](Documents/ChainsOfResponsibility.png)
 
+
+## Screenshots for code execution error:
+
+### Stock inventory file path not provided
+
+![](Documents/stock-inventory-argument-error.png)
+
+### Card Data file path not provided
+
+![](Documents/card-argument-error.png)
+
+### Order input file path not provided
+
+![](Documents/order-input-argument-error.png)
+
+
+### Test Case 1:
+
 ## Screenshots of Test Cases:
 
 ### Test Case 1:
@@ -83,4 +101,26 @@ Needs Java 8 installed in the system that is running the program.
 #### Output:
 
 ![](Documents/order-output-3.png)
+
+
+### Test Case 4 (Item does not exist):
+
+#### Input:
+
+![](Documents/order-input-4.png)
+
+#### Output:
+
+![](Documents/order-output-4.png)
+
+
+### Test Case 5 (Category limit exceeded):
+
+#### Input:
+
+![](Documents/order-input-5.png)
+
+#### Output:
+
+![](Documents/order-output-5.png)
 
