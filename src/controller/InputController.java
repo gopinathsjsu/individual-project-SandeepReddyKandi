@@ -91,35 +91,35 @@ public class InputController {
         }
     }
 
-    public boolean checkItemStock() {
-        StringBuilder sb = new StringBuilder();
+    public void checkItemStock() {
         database.getOrderItemsMap().add(currentOrder);
         ValidationHandler itemPresence = new ItemPresenceValidation();
         ValidationHandler itemStock = new ItemStockValidation();
-        ValidationHandler itemCategory = new ItemCategoryCapValidation();;
-        if(!itemPresence.validate(items)){
-            output.add("One of the Item doesn't exist in the stock");
-        }else if(!itemStock.validate(items)){
-            output.add("Please correct quantities of one of the items");
-        }else if(!itemCategory.validate(items)){
-            output.add("Limit on one of the Categories has exceeded");
+        ValidationHandler itemCategory = new ItemCategoryCapValidation();
+        String itemPresenceValidation = itemPresence.validate(items);
+        String itemQuantityValidation = itemStock.validate(items);
+        String itemCategoryLimitValidation = itemCategory.validate(items);
+        System.out.println(itemPresenceValidation);
+        System.out.println(itemQuantityValidation);
+        System.out.println(itemCategoryLimitValidation);
+        if(!itemPresenceValidation.isEmpty()){
+            output.add("Please Fix the following error.");
+            output.add(itemCategoryLimitValidation);
         }
-        for(OrderItem orderItem: items){
-            Items item = database.getStocksInventoryMap().get(orderItem.getName());
-            if(item.getQuantity()<orderItem.getQuantity()){
-                if(sb.length()>0)
-                    sb.append(",");
-                sb.append(orderItem.getName()+"("+item.getQuantity()+")");
-            }else{
-                if(!creditCards.contains(orderItem.getCardDetails()))
+        if(!itemQuantityValidation.isEmpty()){
+            output.add("Please Fix the following error.");
+            output.add(itemQuantityValidation);
+        }
+        if(!itemCategoryLimitValidation.isEmpty()){
+            output.add("Please Fix the following error.");
+            output.add(itemCategoryLimitValidation);
+        }
+        if(output.size()==0) {
+            for (OrderItem orderItem : items) {
+                if (!creditCards.contains(orderItem.getCardDetails()))
                     creditCards.add(orderItem.getCardDetails());
             }
         }
-        if(sb.length()>0){
-            output.add("Please correct quantities");
-            output.add(sb.toString());
-        }
-        return sb.length()==0;
     }
 
     public void generateOutputFile(){
